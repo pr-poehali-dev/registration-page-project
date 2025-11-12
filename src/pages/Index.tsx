@@ -134,18 +134,14 @@ const Index = () => {
                 Наша цель — укреплять научно обоснованную, мультимодальную психотерапию и поддерживать преемственность, отчётливо отделяя её от псевдонаучных практик.
               </p>
               <div className="pt-6 space-y-3">
-                <h3 className="font-bold text-lg mb-4">Три ключевых вопроса конференции:</h3>
+                <h3 className="font-bold text-lg mb-4">Два ключевых вопроса экспертам:</h3>
                 <div className="flex gap-4">
                   <Icon name="ArrowRight" className="text-primary flex-shrink-0 mt-1" size={20} />
-                  <p className="text-base">Вопрос к Прошлому: «Что изменилось? Эволюция от школ к синтезу»</p>
+                  <p className="text-base">Что самое важное изменилось в психотерапии за последние 30 лет?</p>
                 </div>
                 <div className="flex gap-4">
                   <Icon name="ArrowRight" className="text-primary flex-shrink-0 mt-1" size={20} />
-                  <p className="text-base">Вопрос к Настоящему: «Что остается неизменным? Ядро профессии»</p>
-                </div>
-                <div className="flex gap-4">
-                  <Icon name="ArrowRight" className="text-primary flex-shrink-0 mt-1" size={20} />
-                  <p className="text-base">Вопрос к Будущему: «Что нас ждет? Вызовы и возможности»</p>
+                  <p className="text-base">Что остается незыблемой основой в психотерапии последние 30 лет?</p>
                 </div>
               </div>
             </div>
@@ -161,7 +157,7 @@ const Index = () => {
               <Card>
                 <CardContent className="p-6">
                   <div className="flex gap-6">
-                    <div className="text-primary font-bold text-lg">10:00</div>
+                    <div className="text-primary font-bold text-lg">09:30</div>
                     <div>
                       <h3 className="font-bold mb-2">Регистрация участников</h3>
                       <p className="text-sm text-muted-foreground">Приветственный кофе</p>
@@ -172,10 +168,10 @@ const Index = () => {
               <Card>
                 <CardContent className="p-6">
                   <div className="flex gap-6">
-                    <div className="text-primary font-bold text-lg">11:00</div>
+                    <div className="text-primary font-bold text-lg">10:00</div>
                     <div>
-                      <h3 className="font-bold mb-2">Открытие конференции</h3>
-                      <p className="text-sm text-muted-foreground">Приветственное слово организаторов. 30 лет РПА</p>
+                      <h3 className="font-bold mb-2">Пленарное заседание</h3>
+                      <p className="text-sm text-muted-foreground">Открытие конференции. 30 лет РПА. Экспертные доклады</p>
                     </div>
                   </div>
                 </CardContent>
@@ -183,10 +179,10 @@ const Index = () => {
               <Card>
                 <CardContent className="p-6">
                   <div className="flex gap-6">
-                    <div className="text-primary font-bold text-lg">11:30</div>
+                    <div className="text-primary font-bold text-lg">12:00</div>
                     <div>
-                      <h3 className="font-bold mb-2">Вопрос к Прошлому</h3>
-                      <p className="text-sm text-muted-foreground">Эволюция от школ к синтезу. Основной доклад</p>
+                      <h3 className="font-bold mb-2">TEDx-сессия</h3>
+                      <p className="text-sm text-muted-foreground">Выступления членов оргкомитета</p>
                     </div>
                   </div>
                 </CardContent>
@@ -205,10 +201,10 @@ const Index = () => {
               <Card>
                 <CardContent className="p-6">
                   <div className="flex gap-6">
-                    <div className="text-primary font-bold text-lg">14:30</div>
+                    <div className="text-primary font-bold text-lg">14:00</div>
                     <div>
-                      <h3 className="font-bold mb-2">Вопрос к Настоящему</h3>
-                      <p className="text-sm text-muted-foreground">Ядро профессии. Панельная дискуссия</p>
+                      <h3 className="font-bold mb-2">Вертушка для молодых специалистов</h3>
+                      <p className="text-sm text-muted-foreground">Разбор кейса с позиций разных подходов. 5 точек</p>
                     </div>
                   </div>
                 </CardContent>
@@ -216,10 +212,21 @@ const Index = () => {
               <Card>
                 <CardContent className="p-6">
                   <div className="flex gap-6">
-                    <div className="text-primary font-bold text-lg">16:00</div>
+                    <div className="text-primary font-bold text-lg">15:30</div>
                     <div>
-                      <h3 className="font-bold mb-2">Вопрос к Будущему</h3>
-                      <p className="text-sm text-muted-foreground">Вызовы и возможности. Мастер-классы</p>
+                      <h3 className="font-bold mb-2">Клинический разбор</h3>
+                      <p className="text-sm text-muted-foreground">Разбор клинического случая</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex gap-6">
+                    <div className="text-primary font-bold text-lg">16:30</div>
+                    <div>
+                      <h3 className="font-bold mb-2">Баттл: Место ИИ в психотерапии</h3>
+                      <p className="text-sm text-muted-foreground">Дискуссия с интерактивом</p>
                     </div>
                   </div>
                 </CardContent>
@@ -230,7 +237,7 @@ const Index = () => {
                     <div className="text-primary font-bold text-lg">17:30</div>
                     <div>
                       <h3 className="font-bold mb-2">Закрытие конференции</h3>
-                      <p className="text-sm text-muted-foreground">Вручение сертификатов</p>
+                      <p className="text-sm text-muted-foreground">Итоги. Вручение сертификатов</p>
                     </div>
                   </div>
                 </CardContent>
