@@ -46,10 +46,8 @@ const Index = () => {
     <div className="min-h-screen">
       <header className="sticky top-0 z-50 bg-white border-b border-border">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold">
-              РПА
-            </div>
+          <div className="flex items-center gap-3">
+            <img src="https://cdn.poehali.dev/files/fba65bfc-7e41-47aa-8baf-c60e3108326a.jpeg" alt="РПА" className="h-12 w-auto" />
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <button onClick={() => scrollToSection('program')} className="text-sm hover:text-primary transition-colors">
@@ -532,11 +530,8 @@ const Index = () => {
           <div className="max-w-5xl mx-auto">
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div>
-                <div className="flex items-center gap-2 mb-4">
-                  <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-primary font-bold text-sm">
-                    РПА
-                  </div>
-                  <span className="font-bold">РПА</span>
+                <div className="flex items-center gap-3 mb-4">
+                  <img src="https://cdn.poehali.dev/files/fba65bfc-7e41-47aa-8baf-c60e3108326a.jpeg" alt="РПА" className="h-16 w-auto" />
                 </div>
                 <p className="text-sm text-white/70">
                   Российская психотерапевтическая ассоциация
