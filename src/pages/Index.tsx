@@ -77,10 +77,13 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-              Конференция для специалистов помогающих профессий
+              Вызов принять! 30 лет трансформации психотерапии
             </h1>
-            <p className="text-xl mb-8 text-muted-foreground">
-              19 декабря 2025 · Москва · очный формат
+            <p className="text-xl mb-4 text-muted-foreground">
+              Юбилейная конференция к 30-летию РПА
+            </p>
+            <p className="text-lg mb-8 text-foreground/80">
+              19 декабря 2025 · Московский центр инновационных технологий в здравоохранении
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-12">
               <Button size="lg" onClick={() => scrollToSection('registration')}>
@@ -120,22 +123,30 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">О конференции</h2>
-            <div className="space-y-4">
-              <div className="flex gap-4">
-                <Icon name="CheckCircle" className="text-primary flex-shrink-0 mt-1" size={24} />
-                <p className="text-base">Обмен опытом между специалистами помогающих профессий</p>
-              </div>
-              <div className="flex gap-4">
-                <Icon name="CheckCircle" className="text-primary flex-shrink-0 mt-1" size={24} />
-                <p className="text-base">Актуальные методы работы в психотерапии и психиатрии</p>
-              </div>
-              <div className="flex gap-4">
-                <Icon name="CheckCircle" className="text-primary flex-shrink-0 mt-1" size={24} />
-                <p className="text-base">Практические кейсы из клинической практики</p>
-              </div>
-              <div className="flex gap-4">
-                <Icon name="CheckCircle" className="text-primary flex-shrink-0 mt-1" size={24} />
-                <p className="text-base">Нетворкинг с коллегами из разных регионов</p>
+            <div className="space-y-6">
+              <p className="text-base leading-relaxed">
+                Российская психотерапевтическая ассоциация приглашает на юбилейную конференцию, приуроченную к 30-летию РПА.
+              </p>
+              <p className="text-base leading-relaxed">
+                Это профессиональная площадка для открытого разговора о фундаменте и будущем нашей области. Мы соединяем опыт и молодость, разные школы и подходы, российскую и международную экспертизу.
+              </p>
+              <p className="text-base leading-relaxed">
+                Наша цель — укреплять научно обоснованную, мультимодальную психотерапию и поддерживать преемственность, отчётливо отделяя её от псевдонаучных практик.
+              </p>
+              <div className="pt-6 space-y-3">
+                <h3 className="font-bold text-lg mb-4">Три ключевых вопроса конференции:</h3>
+                <div className="flex gap-4">
+                  <Icon name="ArrowRight" className="text-primary flex-shrink-0 mt-1" size={20} />
+                  <p className="text-base">Вопрос к Прошлому: «Что изменилось? Эволюция от школ к синтезу»</p>
+                </div>
+                <div className="flex gap-4">
+                  <Icon name="ArrowRight" className="text-primary flex-shrink-0 mt-1" size={20} />
+                  <p className="text-base">Вопрос к Настоящему: «Что остается неизменным? Ядро профессии»</p>
+                </div>
+                <div className="flex gap-4">
+                  <Icon name="ArrowRight" className="text-primary flex-shrink-0 mt-1" size={20} />
+                  <p className="text-base">Вопрос к Будущему: «Что нас ждет? Вызовы и возможности»</p>
+                </div>
               </div>
             </div>
           </div>
@@ -164,7 +175,7 @@ const Index = () => {
                     <div className="text-primary font-bold text-lg">11:00</div>
                     <div>
                       <h3 className="font-bold mb-2">Открытие конференции</h3>
-                      <p className="text-sm text-muted-foreground">Приветственное слово организаторов</p>
+                      <p className="text-sm text-muted-foreground">Приветственное слово организаторов. 30 лет РПА</p>
                     </div>
                   </div>
                 </CardContent>
@@ -174,8 +185,8 @@ const Index = () => {
                   <div className="flex gap-6">
                     <div className="text-primary font-bold text-lg">11:30</div>
                     <div>
-                      <h3 className="font-bold mb-2">Современные подходы в психотерапии</h3>
-                      <p className="text-sm text-muted-foreground">Основной доклад</p>
+                      <h3 className="font-bold mb-2">Вопрос к Прошлому</h3>
+                      <p className="text-sm text-muted-foreground">Эволюция от школ к синтезу. Основной доклад</p>
                     </div>
                   </div>
                 </CardContent>
@@ -196,8 +207,8 @@ const Index = () => {
                   <div className="flex gap-6">
                     <div className="text-primary font-bold text-lg">14:30</div>
                     <div>
-                      <h3 className="font-bold mb-2">Панельная дискуссия</h3>
-                      <p className="text-sm text-muted-foreground">Сложные случаи из практики</p>
+                      <h3 className="font-bold mb-2">Вопрос к Настоящему</h3>
+                      <p className="text-sm text-muted-foreground">Ядро профессии. Панельная дискуссия</p>
                     </div>
                   </div>
                 </CardContent>
@@ -207,8 +218,8 @@ const Index = () => {
                   <div className="flex gap-6">
                     <div className="text-primary font-bold text-lg">16:00</div>
                     <div>
-                      <h3 className="font-bold mb-2">Мастер-классы</h3>
-                      <p className="text-sm text-muted-foreground">Параллельные секции</p>
+                      <h3 className="font-bold mb-2">Вопрос к Будущему</h3>
+                      <p className="text-sm text-muted-foreground">Вызовы и возможности. Мастер-классы</p>
                     </div>
                   </div>
                 </CardContent>
@@ -285,7 +296,7 @@ const Index = () => {
                   <Icon name="MapPin" className="text-primary mt-1" size={24} />
                   <div>
                     <h3 className="font-bold mb-2">Адрес</h3>
-                    <p className="text-base">Москва, ул. Примерная, д. 1</p>
+                    <p className="text-base">Московский центр инновационных технологий в здравоохранении</p>
                   </div>
                 </div>
                 <div className="bg-muted h-64 rounded-lg flex items-center justify-center">
